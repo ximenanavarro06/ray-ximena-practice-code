@@ -7,7 +7,7 @@ function TodoForm ({addTodo}) {
     const [value, setValue] = useState('')
 //helper function that handles the submit event listener
     function handleSubmit(e) {
-        //prevents the event listner from reloading the page every time
+        //prevents the event listener from reloading the page every time
         e.preventDefault();
         //
         if (value) {
